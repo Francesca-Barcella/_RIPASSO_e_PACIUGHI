@@ -1,3 +1,49 @@
 *{
-    background-color: aquamarine;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+/* studio elementi inline-block-inlineblock */
+#viola{
+    background-color:violet;
+}
+
+#verde{
+    background-color: lightgreen;
+}
+
+#azzurro{
+    background-color: lightblue;
+}
+
+#arancione{
+    background-color: orange;
+}
+
+.rosso{
+    background-color: rgba(215, 70, 70, 0.648);
+}
+
+header{
+    background-color: lightgray;
+}
+
+main{
+    height: 200px;
+    background-color: gray;
+}
+
+footer{
+    height: 200px;
+    background-color: lightgray;
+}
+
+.inline-elements{
+
+}
+
+.block-elements{
+
+}
+
