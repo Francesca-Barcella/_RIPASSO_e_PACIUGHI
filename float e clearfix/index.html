@@ -10,36 +10,47 @@
 </head>
 
 <body>
-
     <header>
-
-        <!-- #region studio elementi inline-block-inlineblock -->
-        <section>
-            <span class="inline-elements" id="viola"> <strong>INLINE</strong> element - span </span>
-            <h1 class="block-elements" id="verde"> BLOCK element - titolo </h1>
-            <p class="block-elements" id="azzurro"> <strong>BLOCK</strong> element - paragrafo</p>
-            <div id="arancione"> prova DIV </div>
-            <span class="inline-elements rosso"> INLINE span Lorem.</span>
-            <span class="inline-elements rosso">INLINE span Lorem, ipsum.</span>
-            <span class="inline-elements rosso">INLINE span Lorem ipsum dolor sit.</span>
-        </section>
-        <!-- #endregion studio elementi inline-block-inlineblock -->  
-
+        <h1>Prova float & clearfix</h1>
     </header>
-    
-    <main>
-        main area
-        <!-- #region prova percorso file -->
-        <img src="./assets/img/monitor.jpg" alt="monitor computer">
-        <div class="prova_foto">stella</div>
-        <!-- #endregion prova percorso file -->
-    
-    
-    </main>
 
-    <footer>
-        footer area
-    </footer>
+    <div class="container clearfix">
+        <div class="col clearfix">
+            <div class="col_2 clearfix">
+                <div class="photo">
+                    <img src="./assets/img/monitor.jpg" alt="ciao">
+                </div>
+                <div class="member_staff">
+                    <div class="name">MARCO BIANCHI</div>
+                    <div class="role">Designer</div>
+                    <div class="mail">marcobianchi@team.com</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--  <div class="col">
+            <div class="photo">
+                sinistra
+            </div>
+            <div class="member_staff">
+                destra
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="photo">
+                sinistra
+            </div>
+            <div class="member_staff">
+                destra
+            </div> -->
+    </div>
+
+
+
+
+    </div>
 
 </body>
 
