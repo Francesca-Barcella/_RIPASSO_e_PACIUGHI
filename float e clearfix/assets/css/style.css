@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* #region studio elementi inline-block-inlineblock */
+#viola {
+    background-color: violet;
+}
+
+#verde {
+    background-color: lightgreen;
+}
+
+#azzurro {
+    background-color: lightblue;
+}
+
+#arancione {
+    background-color: orange;
+}
+
+.rosso {
+    background-color: rgba(215, 70, 70, 0.648);
+}
+
+/* #endregion studio elementi inline-block-inlineblock */
+
+header {
+    background-color: lightgray;
+}
+
+main {
+    background-color: gray;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    height: 200px;
+    background-color: lightgray;
+}
+
+/* #region studio percorso foto */
+.prova_foto {
+    background-color: red;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100%;
+}
+    /* #endregion studio percorso foto */
+
+    
