@@ -5,61 +5,92 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-main{
+
+main {
     width: 80%;
     margin: auto;
 
 }
 
-#site_header{
+#site_header {
     text-align: center;
     background-color: #f0f0f0;
     padding: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
-#site_main{
+#site_main {
     width: 70%;
     margin: auto;
 }
 
-#site_footer{
+#site_footer {
     background-color: violet;
     width: 100%;
     height: 80px;
     line-height: 80px;
     text-align: center;
     position: absolute;
-    bottom:0;
+    bottom: 0;
 }
 
 /* #endregion common */
 
-table{
+/* #region first table */
+table {
     width: 100%;
     text-align: center;
-    margin-top: 30px;   
+    margin-top: 30px;
+    border-spacing: 0px;
 }
 
+table td,
+table th {
+    border: 1px solid green;
 
-thead{
+}
+
+thead {
     background-color: pink;
 }
 
-tbody tr{
+tbody tr {
     background-color: aquamarine;
     height: 60px;
 }
 
 tfoot tr {
-    background-color:lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
+}
+/* #endregion first table */
+
+/* #region second table */
+.second_table td, .second_table th {
+    border: 1px solid blue;
 }
 
-h1{
-    border: 5px;
-    border-color: #f0f0f0;
-    border-style: dashed;
+.second_table {
+    border-spacing: 2px;
 }
+/* #endregion second table */
+
+/* #region third table */
+.third_table td, .third_table th {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.third_table {
+    border-spacing: 0px;
+}
+
+.third_table:last-child{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+/* #endregion third table */
