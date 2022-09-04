@@ -8,6 +8,11 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+main{
+    width: 80%;
+    margin: auto;
+
+}
 
 #site_header{
     text-align: center;
@@ -33,4 +38,22 @@ body{
 
 /* #endregion common */
 
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;   
+}
 
+
+thead{
+    background-color: pink;
+}
+
+tbody tr{
+    background-color: aquamarine;
+    height: 60px;
+}
+
+tfoot tr {
+    background-color:lightgoldenrodyellow;
+}
