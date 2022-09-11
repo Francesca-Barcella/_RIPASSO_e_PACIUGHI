@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+.container{
+    width: 70%;
+    border: 1px solid black;
+}
+
+.row{
+     display: flex;
+     flex: wrap;
+     gap: 1rem;
+}
+
+.col-3{
+    width: calc(100% / 12 * 4);
+    border: 1px dashed green;
+    row-gap: 1rem;
+}
+
