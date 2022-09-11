@@ -5,8 +5,28 @@
     box-sizing: border-box;
 }
 
+.item.green{
+    background-color: lightgreen;
+}
+
+.item.red{
+    background-color: coral;
+}
+
+.item.blu{
+    background-color: lightskyblue;
+}
+
+/* #endregion common */
+
+
 .container_flex{
+    background-color: pink;
+    width: 70%;
+    height: 450px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .item{
@@ -15,14 +35,3 @@
     background-color: aquamarine;
 }
 
-.item.red{
-    background-color:rgb(107, 7, 7);
-}
-
-.item.green{
-    background-color: rgb(28, 28, 150);
-}
-
-.item.blu{
-    background-color: rgb(28, 28, 150);
-}
