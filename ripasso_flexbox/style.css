@@ -5,52 +5,24 @@
     box-sizing: border-box;
 }
 
-#site_main{
-    width: 70%;
-    margin: auto;
+.container_flex{
+    display: flex;
 }
 
-#site_header{
-    text-align: center;
-    background-color: #f0f0f0;
-    padding: 20px;
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
 }
 
-
-
-    width: 100%;
-    margin-top: 20px;
-    height: 700px;
+.item.red{
+    background-color:rgb(107, 7, 7);
 }
 
-.square {
-    width: 200px;
-    height: 200px;
-    font-size: 50px;
-    text-align: center;
-    line-height: 200px;
-}
-/* #endregion common */
-
-/* #region main */
-
-.square.pink {
-    background-color: pink;
+.item.green{
+    background-color: rgb(28, 28, 150);
 }
 
-.square.lightblue {
-    background-color: lightblue;
+.item.blu{
+    background-color: rgb(28, 28, 150);
 }
-
-.square.lightgreen {
-    background-color: lightgreen;
-}
-
-.square.lightorange {
-    background-color: rgba(241, 171, 40, 0.681);
-}
-
-.square.violet {
-    background-color: violet;
-}
-/* #endregion main */
