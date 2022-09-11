@@ -23,6 +23,5 @@ img {
 .col-3{
     width: calc(100% / 12 * 4);
     border: 1px dashed green;
-    row-gap: 1rem;
 }
 
