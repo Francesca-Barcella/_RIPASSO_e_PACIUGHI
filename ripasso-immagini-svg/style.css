@@ -7,3 +7,23 @@
 body{
     background-color: coral;
 }
+
+
+svg{
+    width: 50%;
+    height: 50%;
+    border: 1px dashed green;
+   
+}
+
+.asu, .lonely{
+    border: 1px solid black;
+}
+
+
+.d_flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
