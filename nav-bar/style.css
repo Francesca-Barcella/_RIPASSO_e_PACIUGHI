@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+nav{
+    padding: 1rem;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.w_80{
+    width: 80%;
+    margin: auto;
+}
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    padding: 0 0.5rem;
+    border: 1px solid blue;
+}
+
+ul:last-child{
+    padding-right: 0;
+}
+
+img, .vuoto{
+    border: 1px solid blue;
+    display: inline-block;
+}
