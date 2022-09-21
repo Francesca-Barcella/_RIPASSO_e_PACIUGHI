@@ -1,0 +1,63 @@
+/* #region common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+
+}
+
+#site_header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+}
+
+#site_main {
+    width: 70%;
+    margin: auto;
+}
+
+#site_footer {
+    background-color: violet;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+/* #endregion common */
+
+.container{
+    width: 80%;
+    background-color: lightcoral;
+    justify-content: space-between;
+   
+}
+
+.d_flex{
+    display: flex;
+}
+
+.f_wrap{
+    flex-wrap: wrap;
+}
+
+
+
+.col-4{
+    border: 1px solid black;
+   /*  width: calc(100% / 12 * 4 - 1rem); */
+}
