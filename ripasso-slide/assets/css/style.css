@@ -1,0 +1,159 @@
+/* #region common */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 13px;
+}
+
+/* #endregion common */
+
+/* #region utilities */
+:root {
+    --ps-dark: #000000;
+    --ps-light: #FFFFFF;
+    --ps-btn-primary: #2D64E6;
+    --ps-btn-secondary: #CD3D0F;
+    --ps-btn-dark: #363636;
+    --ps-bg-dark-lite: #BEBCBB;
+    --ps-bg-blue: #161C3B;
+    --ps-bg-blue-lite: #00439C;
+    --ps-bg-dark: #1F1F1F;
+}
+
+/* #endregion utilities */
+
+/* #region debug */
+
+.debug main .jumbotron {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.debug .slide [class^="col"],
+.debug .playstation5 [class^="col"],
+.debug .jumbotron.takes_two [class^="col"],
+.debug .new_release [class^="col"],
+.debug .playstation .four [class^="col"],
+.debug .banner.plus [class^="col"],
+.debug .playstation.store [class^="col"],
+.debug .banner.now [class^="col"],
+.debug .social [class^="col"],
+.debug footer [class^="col"] {
+    height: 150px;
+    border: 1px solid violet;
+    background-color: pink;
+}
+
+.debug .jumbotron.takes_two {
+    height: 200px;
+}
+
+.debug footer {
+    border: 1px solid blue;
+}
+
+.debug footer .dx [class^="col"] {
+    border: 1px solid white;
+    height: 50px;
+}
+
+.debug .icons {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+/* #endregion debug */
+
+/* #region header */
+header .logo {
+    background-color: var(--ps-dark);
+    height: 25px;
+}
+
+header nav {
+    background-color: var(--ps-light);
+}
+
+header img {
+    width: 50px;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.navbar a {
+    color: var(--ps-dark);
+}
+
+.navbar button {
+    background-color: var(--ps-btn-dark);
+    color: var(--ps-light);
+}
+
+/* #endregion header */
+
+/* #region main */
+
+/* .jumbotron.returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    height: 450px;
+}
+
+.jumbotron.returnal .row{
+    height: 450px;
+}
+
+.jumbotron.returnal .btn {
+    background-color: var(--ps-btn-secondary);
+    color: var(--ps-light);
+}
+
+.new_releases {
+    background-color: var(--ps-bg-dark);
+    color: var(--ps-light);
+}
+
+.banner.plus {
+    background-color: var(--ps-bg-dark-lite);
+}
+
+.banner.now {
+    background-color: var(--ps-bg-blue);
+    color: var(--ps-light);
+}
+ */
+
+/* #endregion main */
+
+/* #region footer */
+/* footer {
+    background-color: var(--ps-bg-blue-lite);
+    color: var(--ps-light);
+} */
+/* #region footer */
