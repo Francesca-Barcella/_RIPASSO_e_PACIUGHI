@@ -45,15 +45,27 @@ TENTIAMO CON APPEND
     'zucchero'
 ] */
 
+
+//METODO 1 - const + innerhtml
+//pesco l'elemento dal dom
 const mascarpone = document.getElementById('mascarpone');
-console.log(mascarpone);
+// assegno alla variabile un valore con innerHTML e in automatico entra nel dom
 mascarpone.innerHTML = ('mascarpone');
 
-const pannaFresca = document.getElementById('panna_fresca');
-console.log(pannaFresca);
-pannaFresca.innerHTML = ('panna fresca liquida');
+//METODO 2 - innerhtml
+//per evitare un passaggio evito di creare la variabile e assegno direttamente al "pescaggio" un valore sempre con innerHTML
+document.getElementById('panna_fresca').innerHTML = ('panna fresca liquida 2')
 
-const zuccheroAvelo = document.createElement('p');
+//METODO 3 - createElement + append
+//const per prendere l'elemento dal dom a cui aggiungo un elemento li con createElement
+//in questo modo aggiungo un li appeso all'ultimo li (cioè panna_fresca)
+const zuccheroAvelo = document.createElement('li');
+//do un valore stringa alla variabile
 zuccheroAvelo.innerHTML = '60 g di zucchero a velo';
-document.getElementById('zucchero_velo').append(zuccheroAvelo);
+//appendo la mia variabile al dom
+document.getElementById('panna_fresca').append(zuccheroAvelo);
+
+
+
+
 
