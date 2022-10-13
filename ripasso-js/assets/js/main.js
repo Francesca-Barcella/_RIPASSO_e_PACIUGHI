@@ -1,4 +1,4 @@
-// creare array con lista della spesa - (const)
+/* // creare array con lista della spesa - (const)
 const shoppingList = [
     '250 g di mascarpone',
     '250 g di panna fresca liquida',
@@ -27,7 +27,7 @@ while (i < shoppingList.length) {
     //console.log(liElement);
     //inserire liElement in <ul></ul>
     listaSpesaUl.insertAdjacentHTML('beforebegin', liElement);
-}
+} */
 
 
 /****************************************************
@@ -57,13 +57,17 @@ mascarpone.innerHTML = ('mascarpone');
 document.getElementById('panna_fresca').innerHTML = ('panna fresca liquida 2')
 
 //METODO 3 - createElement + append
-//const per prendere l'elemento dal dom a cui aggiungo un elemento li con createElement
-//in questo modo aggiungo un li appeso all'ultimo li (cioè panna_fresca)
+//aggiungo un li con createElement
 const zuccheroAvelo = document.createElement('li');
+const pavesini = document.createElement('li');
 //do un valore stringa alla variabile
 zuccheroAvelo.innerHTML = '60 g di zucchero a velo';
-//appendo la mia variabile al dom
-document.getElementById('panna_fresca').append(zuccheroAvelo);
+pavesini.innerHTML = 'pavesini';
+//appendo la mia variabile ad ul del dom
+document.querySelector('.lista_ingredienti').append(zuccheroAvelo);
+document.querySelector('.lista_ingredienti').append(pavesini);
+
+
 
 
 
