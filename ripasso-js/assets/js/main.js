@@ -68,6 +68,15 @@ document.querySelector('.lista_ingredienti').append(zuccheroAvelo);
 document.querySelector('.lista_ingredienti').append(pavesini);
 
 
+//generare serie di numeri random unici
+const bombs = [];
+while(bombs.length < 16){
+    const bomb = Math.floor(Math.random() * 100) + 1;
+    if(bombs.indexOf(bomb) === -1) bombs.push(bomb);
+}
+console.log(bombs);
+
+
 
 
 
