@@ -1,3 +1,5 @@
+//#region CICLO FOR EACH
+
 //alert('funziono')
 
 const words = ['ciao', 'arrivederci', 'addio'];
@@ -48,20 +50,49 @@ objects.forEach(function (element) {
 console.log('');
 
 //non siamo abbligati a stampare ogni volta tutti e tre i parametri ma solo quello che ci serve
-objects.forEach((object, i, objects_array)=> {
+objects.forEach((object, i, objects_array) => {
     console.log(object); // stampa l'intero oggetto dell'array
     console.log(i); // stampa l'indice dell'oggetto
     console.log(objects_array); //stampa l'intero array
 })
 
-objects.forEach((object, i)=> {
+objects.forEach((object, i) => {
     console.log(object.name); // stampa i nomi di ogni oggetto dell'array
     console.log(object.color); // stampa i colori di ogni oggetto dell'array
-    console.log(i); 
+    console.log(i);
 })
 
 // stampa i nomi e i colori di ogni oggetto dell'array sulla stessa riga
-console.log(object.name, object.color); 
-objects.forEach((object)=> {
+objects.forEach((object) => {
+    console.log(object.name, object.color);
 })
+
+//#endregion CICLO FOR EACH
+
+console.log('');
+
+//#region CICLO MAP
+// simile al forEach ma in più necessita un RETURN e ci restituisce un array NUOVO
+// anche per map si può mettere element, index, array in base a come ci servono
+// dobbiamo salvarla dentro una variabile per avere un nuovo array
+
+
+const numbers = [10, 25, 30]
+console.log('array con numeri iniziali ' + numbers);
+
+const dubleNumbers = numbers.map(function (numb) {
+    return numb * 2;
+});
+
+console.log('lista dei numeri raddoppiati ' + dubleNumbers); // 20, 50, 60,
+
+const newNumbers = []
+numbers.forEach(element => {
+    newNumbers.push(element * 2)
+})
+
+console.log('nuovo array ' + newNumbers);
+//#endregion CICLO MAP
+
+console.log('');
 
