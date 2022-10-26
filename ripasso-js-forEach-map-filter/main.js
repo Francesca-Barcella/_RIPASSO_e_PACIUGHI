@@ -1,4 +1,3 @@
-
 console.log('');
 
 //#region CICLO MAP
