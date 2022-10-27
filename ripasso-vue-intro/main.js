@@ -12,6 +12,7 @@ createApp({
             number: 3,
             userName: '',
             textColor: 'color',
+            
 
             //gestione attributi di un tag
             attributiDiv: {
@@ -31,8 +32,6 @@ createApp({
             } else {
                 this.textColor = 'color';
             }
-        
         }
     }
-
     }).mount('#app');
