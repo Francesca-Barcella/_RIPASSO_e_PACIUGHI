@@ -1,0 +1,18 @@
+#bgColor{
+    background-color: lightpink;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+.color{
+    color: purple;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.newColor {
+    color: green;
+    font-weight: bold;
+
+}
