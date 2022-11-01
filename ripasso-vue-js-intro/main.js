@@ -12,7 +12,9 @@ createApp({
             number: 3,
             userName: '',
             textColor: 'color',
-            
+            isActive: true,
+            hasError: false,
+
 
             //gestione attributi di un tag
             attributiDiv: {
@@ -34,4 +36,4 @@ createApp({
             }
         }
     }
-    }).mount('#app');
+}).mount('#app');
