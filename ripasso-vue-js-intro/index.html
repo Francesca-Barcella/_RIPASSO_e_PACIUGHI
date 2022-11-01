@@ -41,11 +41,13 @@
         <!-- 
             active: isActive => CLASSE!
             va ad agire sulla classe che poi io definisco in css
-            
+
             'text-primary' : hasError  => STYLE!
             va ad agire sullo stile del testo che in questo caso recupera attraverso bootstrap IMPORTANTE = se non avessi avuto installato bootstrap avrei dovuto usare un altra classe in css
         -->
-        <div class="static" :class="{active: isActive, 'text-primary': hasError}"> prova classe active</div>
+        <div class="static p-2 my-1" :class="{active: isActive, 'text-primary': hasError}"> prova classi e stili - in linea nel v-bind in html</div>
+
+        <div class="p-2 my-1" :class="classObject"> prova classi e stili 2 - come unico oggetto nell'istanza in js</div>
 
 
     </div>
