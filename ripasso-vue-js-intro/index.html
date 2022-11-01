@@ -37,9 +37,8 @@
 
         <!-- <div>{{ ok ? 'YES' : 'NO' }}</div> -->
 
-        <!-- <div :class="{active: isActive}"> prova classe active</div> -->
         <!-- 
-            active: isActive => CLASSE!
+            active: isActive => CLASS!
             va ad agire sulla classe che poi io definisco in css
 
             'text-primary' : hasError  => STYLE!
@@ -47,7 +46,8 @@
         -->
         <div class="static p-2 my-1" :class="{active: isActive, 'text-primary': hasError}"> prova classi e stili - in linea nel v-bind in html</div>
 
-        <div class="p-2 my-1" :class="classObject"> prova classi e stili 2 - come unico oggetto nell'istanza in js</div>
+        <div class="p-2 my-1" :class="classObject" > prova classi e stili 2 - come unico oggetto nell'istanza in js</div>
+        
 
 
     </div>

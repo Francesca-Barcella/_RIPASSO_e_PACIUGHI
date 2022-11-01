@@ -19,7 +19,8 @@ createApp({
            
             classObject:{
                 active: true,
-                'text-primary': true
+                'text-primary': true,
+                'text-decoration-line-through': true
             },
 
             //gestione attributi di un tag
