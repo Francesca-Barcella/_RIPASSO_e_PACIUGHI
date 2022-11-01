@@ -13,7 +13,7 @@ createApp({
             userName: '',
             textColor: 'color',
             isActive: true,
-            hasError: false,
+            hasError: true,
 
 
             //gestione attributi di un tag
