@@ -44,10 +44,17 @@
             'text-primary' : hasError  => STYLE!
             va ad agire sullo stile del testo che in questo caso recupera attraverso bootstrap IMPORTANTE = se non avessi avuto installato bootstrap avrei dovuto usare un altra classe in css
         -->
-        <div class="static p-2 my-1" :class="{active: isActive, 'text-primary': hasError}"> prova classi e stili - in linea nel v-bind in html</div>
+        <div class="static p-2 my-1" :class="{active: isActive, 'text-primary': hasError}"> prova classi e stili - in
+            linea nel v-bind in html</div>
 
-        <div class="p-2 my-1" :class="classObject" > prova classi e stili 2 - come unico oggetto nell'istanza in js</div>
-        
+        <div class="p-2 my-1" :class="classObject"> prova classi e stili 2 - come unico oggetto nell'istanza in js</div>
+
+
+        <!-- input multilinea -->
+        <span>Esempio di v-model con multiline:</span>
+        <p style="white-space: pre-line;">{{ message_2 }}</p>
+        <textarea v-model="message_2" placeholder="add multiple lines"></textarea>
+        <p style="white-space: pre-line"></p>
 
 
     </div>

@@ -5,6 +5,7 @@ createApp({
 
         return {
             message: 'hello vue!',
+            message_2: '',
             title: 'Ripasso vue js',
             //isButtonDisabled: true, // DISABILITATO
             isButtonDisabled: false, // ABILITATO
