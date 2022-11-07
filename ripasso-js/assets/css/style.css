@@ -1,3 +1,18 @@
 body{
-    background-color: lightcoral;
+    background-color: lightgoldenrodyellow;
+}
+
+.container{
+    background-color: #f0f0f0;
+    height: 50px;
+}
+
+.text{
+    color: lightcoral;
+    font-style: italic;
+}
+
+.underline{
+   text-decoration: underline;
+   line-height: 50px;
 }

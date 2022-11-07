@@ -70,12 +70,39 @@ document.querySelector('.lista_ingredienti').append(pavesini);
 
 //generare serie di numeri random unici
 const bombs = [];
-while(bombs.length < 16){
+while (bombs.length < 16) {
     const bomb = Math.floor(Math.random() * 100) + 1;
-    if(bombs.indexOf(bomb) === -1) bombs.push(bomb);
+    if (bombs.indexOf(bomb) === -1) bombs.push(bomb);
 }
 console.log(bombs);
 
+//ELEMENT OBJECT - DOM METHODS - LEZIONE 27
+
+//CLASSLIST
+const title = document.querySelector('.text');
+console.log(title.classList);
+
+
+//methods per classlist
+title.classList.remove('px-1');
+title.classList.add('method_add')
+
+//CLASSNAME
+const paragrafoEl = document.querySelector('.paragrafo')
+paragrafoEl.className = 'newClass';
+paragrafoEl.className += ' secondNewClass';
+console.log(paragrafoEl.classList);
+
+//STYLE
+//Per leggere lo style già applicato faccio il log
+console.log(title.style.color);
+//per modificare invece lo style aggiungo il method
+title.style.color ='green';
+
+//EVENTLISTERNER
+paragrafoEl.addEventListener ('click', function (){
+console.log('hai cliccato sul paragrafo');
+});
 
 
 
