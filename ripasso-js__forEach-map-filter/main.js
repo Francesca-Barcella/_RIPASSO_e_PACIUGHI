@@ -4,9 +4,14 @@
 
 const words = ['ciao', 'arrivederci', 'addio'];
 console.log(words);
-words.pop();
 words.push('bentornato');
+words.push('buon viaggio');
+words.push('buone vacanze');
 
+//rimuove l'ultimo elemento dell'array
+words.pop();
+//rimuove il primo elemento dell'arraya
+words.shift();
 
 words.forEach((element, index, words_array) => {
     console.log(element, index);
