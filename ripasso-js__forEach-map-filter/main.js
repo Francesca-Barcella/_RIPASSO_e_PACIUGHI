@@ -2,16 +2,19 @@
 
 //alert('funziono')
 
-const words = ['ciao', 'arrivederci', 'addio'];
+const words = ['ciao', 'weekddìen lungo', 'addio'];
 console.log(words);
 words.push('bentornato');
 words.push('buon viaggio');
 words.push('buone vacanze');
+words.push('arrivederci');
 
 //rimuove l'ultimo elemento dell'array
-words.pop();
+//words.pop();
 //rimuove il primo elemento dell'arraya
 words.shift();
+//mette in ordine alfabetico/numerico crescente
+words.sort();
 
 words.forEach((element, index, words_array) => {
     console.log(element, index);
