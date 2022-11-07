@@ -70,6 +70,7 @@ objects.forEach((object) => {
 //#endregion CICLO FOR EACH
 
 console.log('');
+console.log('');
 
 //#region CICLO MAP
 // simile al forEach ma in più necessita un RETURN e ci restituisce un array NUOVO
