@@ -4,6 +4,7 @@
 
 const words = ['ciao', 'arrivederci', 'addio'];
 
+
 words.forEach((element, index, words_array) => {
     console.log(element, index);
 });
