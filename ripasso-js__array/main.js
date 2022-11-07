@@ -36,3 +36,14 @@ console.log(myBoys);
 
 const myChildren = myGirls.concat(myBoys);
 console.log(myChildren);
+
+const user = [
+    'Francesca',
+    43,
+    ['Giulia', 'Andrea', 'Marco']
+]
+
+console.log(user);
+//fare il console log di Andrea
+//praticamente user[1] si riferisci al primo array e la seconda parentesti quadra [1]si riferisce al secondo array contenuto all'interno del primo
+console.log(user[2][1]);
