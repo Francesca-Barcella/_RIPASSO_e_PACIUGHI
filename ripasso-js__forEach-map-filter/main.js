@@ -3,6 +3,9 @@
 //alert('funziono')
 
 const words = ['ciao', 'arrivederci', 'addio'];
+console.log(words);
+words.pop();
+words.push('bentornato');
 
 
 words.forEach((element, index, words_array) => {
