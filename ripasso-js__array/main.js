@@ -24,3 +24,15 @@ console.log('log dell\'ultima parola dell\'array = ' + word);
 words.forEach((element, index, words_array) => {
     console.log(element, index);
 });
+
+console.log('');
+
+//concatenare due array
+
+const myGirls = ["Cecilie", "Lone"];
+console.log(myGirls);
+const myBoys = ["Emil", "Tobias", "Linus"];
+console.log(myBoys);
+
+const myChildren = myGirls.concat(myBoys);
+console.log(myChildren);
